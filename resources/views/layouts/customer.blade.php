@@ -33,8 +33,8 @@
                   </svg>
                </button>
                <a href="#" class="text-xl font-bold flex items-center lg:ml-2.5">
-               <img src="https://demo.themesberg.com/windster/images/logo.svg" class="h-6 mr-2" alt="Windster Logo">
-               <span class="self-center whitespace-nowrap">Waste Wise</span>
+               {{-- <img src="{{asset('assets/remobg.png')}}" width="200px" > --}}
+               <span class="self-center whitespace-nowrap"></span>
                </a>
                <span class="px-2 py-1 rounded mx-2 bg-green-200 text-sm text-dark-900">Customer Dashboard</span>
                <form action="#" method="GET" class="hidden lg:block lg:pl-32">
