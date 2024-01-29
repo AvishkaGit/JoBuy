@@ -13,7 +13,12 @@ return new class extends Migration
     {
         Schema::create('sellerinfos', function (Blueprint $table) {
             $table->id();
-            
+            $table->string('photos'); // Assuming photos will be stored as a string (you may need to adjust this based on your needs)
+            $table->text('description');
+            $table->text('title');
+            $table->string('location');
+            $table->string('category');
+            $table->string('profile_picture')->nullable();
             $table->timestamps();
         });
     }

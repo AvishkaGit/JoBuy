@@ -31,12 +31,11 @@
             </div>
 
             <div class="mt-4">
-                <label for="role">who are you</label>
+                <label for="role">what yo want</label>
 
                  <select name="role">
-                  <option value="Admin">Admin</option>
+                 <option value="Customer">Customer</option>
                   <option value="Seller">Seller</option>
-                  <option value="Customer">Customer</option>
                  </select>
             </div>
 
